@@ -1,0 +1,132 @@
+h1, h2, h3 {
+  font-family: "Montserrat", sans-serif;
+}
+h3 {
+  font-weight: 900;
+  color: rgb(80, 76, 76);
+  line-height: 1.5rem;
+}
+p {
+  color: #8f8f8f;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+/* Container section */
+.container-fluid{
+    text-align: center;
+}
+#title .container-fluid{
+    text-align: left;
+}
+/* Colored-section and white-section  */
+.white-section{
+    background-color: #fff;
+}
+.colored-section{
+    background-color:#ff4c68
+}
+/* Title Section */
+.heading {
+  size: 3rem;
+  line-height: 1.5;
+  font-weight:900;
+  color: #fff;
+}
+
+
+.navbar-brand{
+    color: #fff;
+
+}
+
+.image-phone {
+  transform: rotate(25deg);
+  position: absolute;
+  width:250px;
+  right: 40%;
+}
+/* Features section */
+
+#features {
+  position: relative;
+  z-index: 1;
+  padding: 3% 15%;
+  font-size: large;
+}
+.features-icon {
+  color: #ef8172;
+  margin-bottom: 1.5rem;
+}
+.features-icon:hover {
+  color: black;
+}
+.features-box {
+  text-align: center;
+  padding: 5%;
+}
+/* Testimonals section */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+}
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+.carousel-inner {
+  padding: 3% 20%;
+  /* This allows for the previous and next button to be in the edges as opposed to the previous padding 
+        being set on testimonials class */
+}
+
+/* Press section */
+#press {
+  text-align: center;
+  background-color: #ef8172; /*Joins the testimonials section without adding it to the section */
+  padding: 20px 20px 50px;
+}
+.press-logo {
+  width: 15%;
+  padding: 10px;
+}
+
+/* Pricing section */
+#pricing {
+  text-align: center;
+  margin-top: 10px;
+  padding: 30px;
+}
+.pricing-column{
+    padding: 2% 30%;
+}
+
+
+/* Call to action section */
+#cta {
+    padding: 50px 5px 50px;
+    font-family: Montserrat;
+  }
+.download-button{
+    margin:10px 20px 100px;
+}
+  #footer{
+      margin: 30px;   
+  }
+.social-icon{
+ margin:10px 20px;
+}
+  
+
+
+@media (max-width: 1000px){
+    .image-phone {
+        position: static;
+        transform: rotate(0deg);
+   
+    }
+}
+     
+
